@@ -1,0 +1,2 @@
+Number() -> Transforma uma string um número
+

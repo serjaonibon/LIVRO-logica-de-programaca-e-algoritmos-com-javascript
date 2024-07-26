@@ -1,0 +1,3 @@
+var  -> Forma de declarar uma variável. Uma variável é um valor que pode ser alterado durante a execução do programa
+const -> Já a constante, não poderá ser alterado ao longo do programa
+
