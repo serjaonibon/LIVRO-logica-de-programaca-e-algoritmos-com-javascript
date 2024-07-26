@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Conta Pizzaria</title>
+</head>
+<body>
+
+<script>
+    var vlrConta = Number(prompt("Informe o valor da conta: R$ "))
+    var numClientes = Number(prompt("Quantas pessoas irão pagar: "))
+    var vlrPorPessoa = vlrConta / numClientes
+
+    alert(
+        "Valor da conta: R$ " + vlrConta.toFixed(2) +
+        "\n\nNúmero de clientes: " + numClientes +
+        "\nValor a ser pago por cliente: R$" + vlrPorPessoa.toFixed(2)
+    )
+</script>
+</body>
+</html>

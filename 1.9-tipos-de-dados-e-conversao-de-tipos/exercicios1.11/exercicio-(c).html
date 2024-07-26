@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pagamento Loja</title>
+</head>
+<body>
+
+<script>
+    var vlrProduto = Number(prompt("Informe o valor do produto: R$"))
+    var vlrProdutoAvista = vlrProduto - (vlrProduto * 0.10)
+    var vlrProdutoPrazo = (vlrProduto / 3 )
+
+    alert(
+        "Valor do produto: R$ " + vlrProduto.toFixed(2) +
+        "\n\nValor do produto a vista: R$ " + vlrProdutoAvista.toFixed(2) +
+        "\nValor do produto a prazo: R$ " + vlrProdutoPrazo.toFixed(2)
+
+    )
+</script>
+
+</body>
+</html>
