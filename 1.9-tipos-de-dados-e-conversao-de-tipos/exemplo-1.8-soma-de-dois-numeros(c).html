@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calcule o valor de um jantar</title>
+</head>
+<body>
+
+<script>
+    var valor = Number(prompt("Qual o valor do jantar R$: "))
+    var taxa = valor * 0.10
+    var total = valor + taxa
+    alert(
+        "Sua despesa com esse delicioso jantar será?\n" +
+        "\nTaxa do garçon R$: " + taxa.toFixed(2) +
+        "\nValor Total R$: " + total.toFixed(2)
+
+        /*
+        * Adicionamos o método "toFixed()" às variáveis "taxa/total", para que as caas decimais
+        * possam ser acrescentadas a elas.
+        * */
+    )
+</script>
+
+</body>
+</html>
