@@ -1,5 +1,5 @@
 function displayPromotion() {
-    // criar referência aos elementos manipulados  pelo programa
+    // criar referência aos elementos manipulados pelo programa
     var inVehicle = document.getElementById("inVehicle")
     var inPrice = document.getElementById("inPrice")
     var outVehicle = document.getElementById("outVehicle")
@@ -7,12 +7,13 @@ function displayPromotion() {
     var outParcela = document.getElementById("outParcela")
 
     //  obtém conteúdo do campos de entada
+    //  obtém conteúdo do campos de entada
     var vehicle = inVehicle.value
-    var price = inPrice.value
+    var price = Number(inPrice.value)
 
     // calcula valor da entrada e das parcelas
     var entrada = price * 0.50
-    var parcela = Number(inPrice.value)
+    var parcela = (price * 0.50) / 12;
 
     // altera o conteúdo dos parágrafos de resposta
     outVehicle.textContent = "Promoção: " + vehicle
